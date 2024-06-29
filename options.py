@@ -31,11 +31,13 @@ class Options2:
                 print("Invalid choice!")
     def get_contact_info(self):
         choices = ['Community Center', 'Special Needs', 'Employment Help', 'Youth Group']
-        if choices == 'Youth':
+        if choices == 'Community Center':
             return ' '
-        elif choices == 'shelter':
+        elif choices == 'Special Needs':
             return ' '
-        elif choices == 'etc':
+        elif choices == 'Employment Help':
+            return ' '
+        elif choices == 'Youth Group':
             return ' '
         else:
             print("Invalid choice!")

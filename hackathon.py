@@ -6,7 +6,7 @@ class volunteering():
         while True:
             print("Welcome to Chessed Work")
             print("Main Menu:")
-            print("Please eneter which city you are located in:")
+            print("Please enter which city you are located in:")
             print("1. Miami")
             print("2. Orlando")
             choice = input("Enter your choice (1/2): ").strip()

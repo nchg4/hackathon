@@ -3,18 +3,18 @@
 class Options1:
     def get_user_choice_miami(self):
         while True:
-            user_choice = input("Enter your choice (hospital/youth/etc): ").strip().lower()
-            if user_choice in ['hospital', 'youth', 'etc']:
+            user_choice = input("Enter your choice (Medical Struggles/Youth Group/Special Needs): ").strip().lower()
+            if user_choice in ['Medical Struggles', 'Youth', 'Special Needs']:
                 return user_choice
             else:
-                print("Invalid choice!")
+                print("That is not a valid choice!")
     def get_contact_info(self):
-        choices = ['hospital', 'youth', 'etc']
-        if choices == 'hospital':
+        choices = ['Medical Struggles', 'Youth Group', 'Special Needs']
+        if choices == 'Medical Struggles':
             return ' '
-        elif choices == 'youth':
+        elif choices == 'Youth Group':
             return ' '
-        elif choices == 'etc':
+        elif choices == 'Special Needs':
             return ' '
         else:
             print("Invalid choice!")
@@ -24,13 +24,13 @@ class Options1:
 class Options2:
     def get_user_choice_Orlando(self):
         while True:
-            user_choice = input("Enter your choice (Youth/shelter/etc): ").strip().lower()
-            if user_choice in ['Youth', 'shelter', 'etc']:
+            user_choice = input("Enter your choice (Community Center/Special Needs/Employment Help/Youth Group): ").strip().lower()
+            if user_choice in ['Community Center', 'Special Needs', 'Employment Help', 'Youth Group']:
                 return user_choice
             else:
                 print("Invalid choice!")
     def get_contact_info(self):
-        choices = ['Youth', 'shelter', 'etc']
+        choices = ['Community Center', 'Special Needs', 'Employment Help', 'Youth Group']
         if choices == 'Youth':
             return ' '
         elif choices == 'shelter':

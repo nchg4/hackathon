@@ -74,7 +74,7 @@ while True:
                     print(input("Age: "))
                     print(input("E-mail: "))
                     print(input("Phone Number: "))
-                    # print(input("Please enter your email to recieve more information: "))
+
                     print("Thank you for choosing Chessed Finder! Someone will contact you shortly about your request.")
 
                 break  # End the program

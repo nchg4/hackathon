@@ -79,8 +79,7 @@ while True:
 
                 break  # End the program
             elif user_response == 'no':
-                print("Thank you for choosing Chessed Finder!")
-            choice = input("Leave your email to recieve updates from Chessed Finder) :").strip()
+                choice = input("Leave your email to recieve updates from Chessed Finder) :").strip()
 
             if choice == 'No':
                 print ("Thank you for choosing Chessed Finder!")

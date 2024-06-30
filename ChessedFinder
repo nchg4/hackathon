@@ -1,5 +1,3 @@
-import random
-
 Miami_Organizations = (
     ('Chai Lifeline', '269 Stirling Road', 'Miami', '1-305-956-9990', 'Economic/Medical Struggles'),
     ('Friendship Circle', '9700 S Dixie Hwy Suite 100', 'Miami', '1-305-234-5654', 'Special Needs'),
@@ -69,20 +67,30 @@ while True:
                     print(f"Address: {org[1]}, {org[2]}")
                     print(f"Phone: {org[3]}")
                     print(f"This location has {1} volunteer opportunity available.")
-                    print()
-                print("Thank you for choosing Chessed Finder!")
+
+                    # Form
+                    print(input("First Name: "))
+                    print(input("Last Name: "))
+                    print(input("Age: "))
+                    print(input("E-mail: "))
+                    print(input("Phone Number: "))
+                    # print(input("Please enter your email to recieve more information: "))
+                    print("Thank you for choosing Chessed Finder! Someone will contact you shortly about your request.")
 
                 break  # End the program
             elif user_response == 'no':
                 print("Thank you for choosing Chessed Finder!")
-                input("Would you like to leave your e-mail and get notified on volunteering opprotunities?:")
+            choice = input("Leave your email to recieve updates from Chessed Finder) :").strip()
 
-                break  # End the program
+            if choice == 'No':
+                print ("Thank you for choosing Chessed Finder!")
             else:
-                print("Invalid response. Please enter 'yes' or 'no'.")
+                print("Thank you for choosing Chessed Finder!")
+            
+                break  # End the program
         else:
-            print("Sorry, we don't have any volunteer opportunities matching your choice.")
-            input("Leave you email to hear about future volunteering opportunities:")
-            break
+            print("Invalid response. Please enter 'yes' or 'no'.")
     else:
-        break
+                print("Sorry, we don't have any volunteer opportunities matching your choice.")
+                input("Leave you email to hear about future volunteering opportunities:")
+                break

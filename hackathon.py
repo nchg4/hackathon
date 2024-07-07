@@ -1,8 +1,7 @@
 from options import Options1
 from options import Options2
 
-class volunteering():
-    def get_user_menu_choice():
+c    def get_user_menu_choice():
         while True:
             print("Welcome to Chessed Work")
             print("Main Menu:")
